@@ -1,0 +1,28 @@
+body {
+
+    background-color: rgb(238, 238, 238);
+}
+
+html {
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.holder input[type="text"]{
+    height: 2rem;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 10px;
+    background: transparent;
+
+    
+}
+
+.holder input[type="submit"]{
+    outline: none;
+    height: 2rem;
+    width: 7rem;
+    background-color: white;
+    border-radius: 10px;
+}
