@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Login</h1>
-    </div>
+    
+    <div class="main-header"><h1>Inventory Management</h1></div>
     <div class="container">
+
+        <div class="header">
+            <h1>Login</h1>
+        </div>
+
         <form action="" method="POST">
             <div>
                 <label for="username">Username</label>
