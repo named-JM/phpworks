@@ -15,7 +15,7 @@
             <h1>Login</h1>
         </div>
 
-        <form action="" method="POST">
+        <form action="" method="POST" id="form">
             <div>
                 <label for="username">Username</label>
                 <input type="text" name="username" id="username" placeholder="Enter username"></div>

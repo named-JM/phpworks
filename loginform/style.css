@@ -27,6 +27,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    box-shadow: 10px 5px 10px rgb(188, 188, 188);
 }
 
 
@@ -50,10 +51,25 @@ input[type="text"], input[type="password"] {
     border-radius: 2rem;
     width: 20rem;
     padding: 10px;
+    
 }
 button {
     border: none;
     border-radius: 5px;
     padding: 10px;
     width: 20rem;
+}
+
+@media screen and (max-width:600px) {
+    
+    #form{
+     
+        padding:40px;
+        
+    }
+
+    .container {
+
+        margin: 20px;
+    }
 }
